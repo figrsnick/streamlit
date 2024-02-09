@@ -27,7 +27,7 @@ tdf_logo = 'https://static.wixstatic.com/media/35c2c9_f5b19d5824844a429b91681561
 # Data
 # -----------------------------------------------------------
 # Load your workbook
-file = "/Users/nick/Documents/dev/google_search/the_digital_federation/App/20240208_tdf_dmu.xlsx"
+file = "App/20240208_tdf_dmu.xlsx"
 # Open the file
 with open(file, "rb") as f:
     decryptor = msoffcrypto.OfficeFile(f)
@@ -60,7 +60,7 @@ df_companies.reset_index(drop=True, inplace=True)
 # -----------------------------------------------------------
 # Set the page to use a wide layout
 st.set_page_config(
-    page_title="TDF| DMU",
+    page_title="TDF | DMU",
     layout="wide")
 
 # Add a password input field to the sidebar
