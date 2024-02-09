@@ -60,7 +60,7 @@ df_companies.reset_index(drop=True, inplace=True)
 # -----------------------------------------------------------
 # Set the page to use a wide layout
 st.set_page_config(
-    page_icon="TDF| DMU",
+    page_title="TDF| DMU",
     layout="wide")
 
 # Add a password input field to the sidebar
