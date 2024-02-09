@@ -75,7 +75,7 @@ if password_input == password:
     st.title('The Digital Federation')
 
     st.markdown("")
-    st.header("De Decision Making Unit:")
+    st.header("De prospects:")
 
     # -----------------------------------------------------------
     # Nested table with companies and employees
