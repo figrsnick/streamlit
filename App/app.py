@@ -27,7 +27,7 @@ tdf_logo = 'https://static.wixstatic.com/media/35c2c9_f5b19d5824844a429b91681561
 # Data
 # -----------------------------------------------------------
 # Load your workbook
-file = "App/20240208_tdf_dmu.xlsx"
+file = "20240208_tdf_dmu.xlsx"
 # Open the file
 with open(file, "rb") as f:
     decryptor = msoffcrypto.OfficeFile(f)
@@ -70,15 +70,6 @@ if password_input == password:
     # -----------------------------------------------------------
     # Header
     # -----------------------------------------------------------
-
-    # # Creating two columns for header
-    # col1, col2 = st.columns([1, 3], gap="small")
-    # # Adding the image to the first column
-    # with col1:
-    #     st.image(tdf_logo, width=100)
-    # # Adding the title to the second column
-    # with col2:
-    #     st.title('The Digital Federation')
 
     st.image(tdf_logo, width=100)
     st.title('The Digital Federation')
