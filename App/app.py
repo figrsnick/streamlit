@@ -117,5 +117,5 @@ if password_input == password:
 
 
 else:
-    # If the password is incorrect, display an error message
-    st.error("Incorrect password. Please try again.")
+    # If the password is incorrect, display an error message to 
+    st.error("Incorrect password. Please try again in the sidebar.")
