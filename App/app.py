@@ -27,7 +27,10 @@ tdf_logo = 'https://static.wixstatic.com/media/35c2c9_f5b19d5824844a429b91681561
 # Data
 # -----------------------------------------------------------
 # Load the file
+
 file = "20240208_tdf_dmu.xlsx"
+print(file)
+# file = "/Users/nick/Documents/dev/google_search/the_digital_federation/streamlit/App/20240208_tdf_dmu.xlsx"
 
 # Open the file
 with open(file, "rb") as f:
