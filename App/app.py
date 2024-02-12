@@ -26,8 +26,9 @@ tdf_logo = 'https://static.wixstatic.com/media/35c2c9_f5b19d5824844a429b91681561
 # -----------------------------------------------------------
 # Data
 # -----------------------------------------------------------
-# Load your workbook
+# Load the file
 file = "20240208_tdf_dmu.xlsx"
+
 # Open the file
 with open(file, "rb") as f:
     decryptor = msoffcrypto.OfficeFile(f)
