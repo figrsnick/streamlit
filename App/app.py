@@ -59,6 +59,18 @@ df_companies.columns = df_companies.iloc[0]
 df_companies = df_companies[1:]
 df_companies.reset_index(drop=True, inplace=True)
 
+columns_to_keep = [
+    'Bedrijfsnaam',
+    'Volledige naam',
+    'Functie categorie',
+    'E-mail 1',
+    'E-mail 2',
+    'Telefoonnummer 1',
+    'Telefoonnummer 2',
+    'LinkedIn URL',
+    'URL afbeelding'
+]
+df_employees = df_employees[columns_to_keep]
 
 # -----------------------------------------------------------
 # The streamlit app
